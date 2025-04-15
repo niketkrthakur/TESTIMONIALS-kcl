@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testimonial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1><strong>TESTIMONIALS</strong></h1>
+  </header>
+
+  <div class="container">
+    <div class="features">
+      <h2>Testimonial Section</h2>
+      <div class="feature-item">🚀 765+ Completed Project</div>
+      <div class="feature-item">😊 456+ Happy Clients</div>
+      <div class="feature-item">❓ 365 Questions Answers</div>
+      <div class="feature-item">🛠️ 15+ Years of Experience</div>
+ </div>
+
+    <div class="testimonials">
+      <h3>Customer are loving it</h3>
+      <div class="cards" id="cardsContainer">
+        <div class="card">
+          <div class="avatar-name">
+            <img src="https://dhakadengineeringservices.com/Images/WareHouse1.png" alt="Avatar">
+            <strong>Vardhman Yarn Shed</strong>
+          </div>
+          <p>"Outstanding craftsmanship! Our Warehouse shed is top-notch, and the team's dedication to quality is truly commendable."</p>
+          <div class="card-footer"><div class="stars">⭐⭐⭐⭐⭐</div></div>
+        </div>
+        <div class="card">
+          <div class="avatar-name">
+            <img src="https://dhakadengineeringservices.com/Images/WareHouse2.png" alt="Avatar">
+            <strong>Crompton Greaves Factory</strong>
+          </div>
+          <p>"Impressed with the Factory building shed! Exceptional service, timely delivery, and a sturdy structure that exceeds expectations."</p>
+          <div class="card-footer"><div class="stars">⭐⭐⭐⭐⭐</div></div>
+        </div>
+        <div class="card">
+          <div class="avatar-name">
+            <img src="https://dhakadengineeringservices.com/Images/WareHouse3.png" alt="Avatar">
+            <strong>NTPC LTD RAIGARH</strong>
+          </div>
+          <p>“Highly recommend their Industrial workshop shed. Reliable, professional, and cost-effective solutions for our business needs.”</p>
+          <div class="card-footer"><div class="stars">⭐⭐⭐⭐⭐</div></div>
+        </div>
+        <div class="card show">
+          <div class="avatar-name">
+            <img src="https://dhakadengineeringservices.com/Images/i3.jpg" alt="Avatar">
+            <strong>Crompton Greaves Mandideep</strong>
+          </div>
+          <p>"Impressed with the Factory building shed! Exceptional service, timely delivery, and a sturdy structure that exceeds expectations."</p>
+          <div class="card-footer"><div class="stars">⭐⭐⭐⭐⭐</div></div>
+        </div>
+      </div>
+
+      <div class="scroll-indicators" id="dotContainer"></div>
+      <div class="next-button">
+        <button id="nextBtn">Next</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-viewer-overlay" id="imageViewer">
+    <span class="viewer-controls" onclick="closeImageViewer()">✖</span>
+    <span class="arrow left" onclick="navigateImage(-1)">❮</span>
+    <img id="viewerImage" src="" alt="Zoomed Image">
+    <span class="arrow right" onclick="navigateImage(1)">❯</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
