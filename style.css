@@ -41,6 +41,8 @@
   
   .feature-item:hover {
     background: #334155;
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 24px #6c63ff;
   }
   
   
